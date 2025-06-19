@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+    <!-- Font Link -->
+    <link
+      rel="stylesheet"
+      href=" https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <main class="result-card">
+      <!-- Result Section -->
+      <section class="result-score">
+        <p class="result-title">Your Result</p>
+
+        <article class="score">
+          <p class="score-mark"><span class="score-avange">76</span> of 100</p>
+        </article>
+
+        <article class="result-statment">
+          <p class="statment-title">Great</p>
+          <p class="statement-description">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </article>
+      </section>
+      <!-- Summary Section -->
+      <section class="result-summary">
+        <h3 class="summary-title">Summary</h3>
+        <ul class="summary-list">
+          <li class="react-card">
+            <div class="card-container">
+              <img src="./assets/images/icon-reaction.svg" alt="reaction-icon" />
+              <p class="react-title">Reaction</p>
+            </div>
+            <p class="react-score"><span>80</span> / 100</p>
+          </li>
+
+          <li class="memory-card">
+            <div class="card-container">
+              <img src="./assets/images/icon-memory.svg" alt="memory-icon" />
+              <p class="memory-title">Memory</p>
+            </div>
+            <p class="memory-score"><span>92</span> / 100</p>
+          </li>
+
+          <li class="verbal-card">
+            <div class="card-container">
+              <img src="./assets/images/icon-verbal.svg" alt="memory-icon" />
+              <p class="verbal-title">Verbal</p>
+            </div>
+            <p class="verbal-score"><span>61</span> / 100</p>
+          </li>
+
+          <li class="visual-card">
+            <div class="card-container">
+              <img src="./assets/images/icon-visual.svg" alt="memory-icon" />
+              <p class="visual-title">Visual</p>
+            </div>
+            <p class="visual-score"><span>72</span> / 100</p>
+          </li>
+        </ul>
+        <button class="btn">Continue</button>
+      </section>
+    </main>
+  </body>
+</html>
